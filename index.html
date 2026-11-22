@@ -1,1 +1,520 @@
-<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Min hemsida</title></head><body style="font-family:system-ui;text-align:center;padding:4rem 1rem"><h1>Min hemsida fungerar!</h1><p>Ladda upp dina egna filer för att ersätta den här sidan.</p></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Greg Harper Coaching | Online Swim &amp; Triathlon Coach</title>
+  <meta name="description" content="Online swim and triathlon coaching from pro triathlete and NCAA swimming champion Greg Harper. Personalized coaching, video stroke analysis and swim workout plans for 70.3 and Ironman.">
+  <link rel="canonical" href="https://www.gregharpercoaching.com/">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#0593C6">
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Greg Harper Coaching">
+  <meta property="og:title" content="Greg Harper Coaching | Online Swim &amp; Triathlon Coach">
+  <meta property="og:description" content="Personalized swim &amp; triathlon coaching and swim plans from Greg Harper: NCAA champion, pro triathlete and fastest swimmer at the IRONMAN 70.3 World Championship.">
+  <meta property="og:url" content="https://www.gregharpercoaching.com/">
+  <meta property="og:image" content="https://www.gregharpercoaching.com/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/img/slide-1.jpg" imagesrcset="assets/img/slide-1-sm.jpg 1000w, assets/img/slide-1.jpg 1126w" imagesizes="(max-width: 960px) 100vw, 64vw">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=7">
+
+  <!-- Structured data: helps Google show rich results -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.gregharpercoaching.com/#greg",
+        "name": "Greg Harper",
+        "jobTitle": "Swim & Triathlon Coach",
+        "description": "Professional triathlete, NCAA swimming champion and online swim coach.",
+        "url": "https://www.gregharpercoaching.com/",
+        "image": "https://www.gregharpercoaching.com/assets/img/greg-coaching.jpg",
+        "sameAs": ["https://www.instagram.com/gharpzorz/"]
+      },
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://www.gregharpercoaching.com/#business",
+        "name": "Greg Harper Coaching",
+        "url": "https://www.gregharpercoaching.com/",
+        "founder": {"@id": "https://www.gregharpercoaching.com/#greg"},
+        "areaServed": "Worldwide",
+        "serviceType": ["Swim coaching", "Triathlon coaching", "Swim video analysis"],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Coaching & workout plans",
+          "itemListElement": [
+            {"@type": "Offer", "name": "Swim Coaching", "price": "165", "priceCurrency": "USD", "description": "Monthly. Weekly written workouts, video analysis and unlimited communication."},
+            {"@type": "Offer", "name": "Full Triathlon Programming", "price": "300", "priceCurrency": "USD", "description": "Monthly. Complete swim, bike and run programming."},
+            {"@type": "Offer", "name": "Video Analysis + 6-Week Plan", "price": "300", "priceCurrency": "USD", "description": "One-time. One-hour video stroke analysis session plus a custom 6-week swim plan."},
+            {"@type": "Offer", "name": "3 Week 70.3 Swim Block", "price": "50", "priceCurrency": "USD"},
+            {"@type": "Offer", "name": "5 Big Ironman Prep Swims", "price": "28", "priceCurrency": "USD"},
+            {"@type": "Offer", "name": "Aerobic with Speed Development - 10 Workouts", "price": "40", "priceCurrency": "USD"},
+            {"@type": "Offer", "name": "Technique Improvement - 5 Sessions", "price": "28", "priceCurrency": "USD"},
+            {"@type": "Offer", "name": "Threshold Development - 10 Workouts", "price": "40", "priceCurrency": "USD"}
+          ]
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type": "Question", "name": "Can you work alongside my current triathlon coach?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Swim Coaching is designed to work collaboratively with your existing triathlon coach, so your swim fits into your overall training load."}},
+          {"@type": "Question", "name": "How do I receive a workout plan after buying it?", "acceptedAnswer": {"@type": "Answer", "text": "After secure checkout with Stripe you receive your plan as a PDF by email, including workouts, drill demonstrations, an intensity guide and the workout theme."}},
+          {"@type": "Question", "name": "Which plan should I start with?", "acceptedAnswer": {"@type": "Answer", "text": "If you are newer to structured swimming, start with Technique Improvement. Racing a 70.3 soon? Pick the 3 Week 70.3 Swim Block. Unsure? Send a message and Greg will point you in the right direction."}}
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="logo" aria-label="Greg Harper Coaching, back to top">
+        <img class="logo-light" src="assets/logo/gh-logo-horizontal-white.svg" width="112" height="45" alt="Greg Harper Coaching">
+        <img class="logo-dark" src="assets/logo/gh-logo-horizontal.svg" width="112" height="45" alt="" aria-hidden="true">
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#coaching">Coaching</a></li>
+          <li><a href="#plans">Workout plans</a></li>
+          <li><a href="#how">How I work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#tips">Swim tips</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact" class="btn btn-primary btn-sm">Get started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO (version B: Greg in the background, photo slider) -->
+    <section class="hero hero-b" aria-labelledby="hero-title">
+      <div class="slider" aria-roledescription="carousel" aria-label="Photos of Greg racing">
+        <div class="slides" aria-live="off">
+          <figure class="slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 5">
+            <img src="assets/img/slide-1.jpg" srcset="assets/img/slide-1-sm.jpg 1000w, assets/img/slide-1.jpg 1126w" sizes="(max-width: 960px) 100vw, 64vw" width="1126" height="1500" alt="Greg Harper running out of the ocean after the swim at IRONMAN 70.3 Gulf Coast" style="object-position:center 18%" fetchpriority="high" decoding="async">
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="2 of 5" aria-hidden="true">
+            <img data-src="assets/img/slide-2.jpg" data-srcset="assets/img/slide-2-sm.jpg 1000w, assets/img/slide-2.jpg 1126w" sizes="(max-width: 960px) 100vw, 64vw" width="1126" height="1500" alt="Close-up of Greg Harper in his swim cap and goggles before the race start" style="object-position:center 30%" decoding="async">
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="3 of 5" aria-hidden="true">
+            <img data-src="assets/img/slide-3.jpg" data-srcset="assets/img/slide-3-sm.jpg 1000w, assets/img/slide-3.jpg 1126w" sizes="(max-width: 960px) 100vw, 64vw" width="1126" height="1500" alt="Greg Harper on the run course" style="object-position:center 20%" decoding="async">
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="4 of 5" aria-hidden="true">
+            <img data-src="assets/img/slide-4.jpg" data-srcset="assets/img/slide-4-sm.jpg 1000w, assets/img/slide-4.jpg 1126w" sizes="(max-width: 960px) 100vw, 64vw" width="1126" height="1500" alt="Greg Harper running down the finish chute" style="object-position:center 20%" decoding="async">
+          </figure>
+          <figure class="slide" role="group" aria-roledescription="slide" aria-label="5 of 5" aria-hidden="true">
+            <img data-src="assets/img/slide-5.jpg" data-srcset="assets/img/slide-5-sm.jpg 1000w, assets/img/slide-5.jpg 1126w" sizes="(max-width: 960px) 100vw, 64vw" width="1126" height="1500" alt="Greg Harper running past spectators" style="object-position:center 20%" decoding="async">
+          </figure>
+        </div>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="slide-dots"><button class="dot-btn is-active" type="button" aria-label="Show photo 1"><span></span></button><button class="dot-btn" type="button" aria-label="Show photo 2"><span></span></button><button class="dot-btn" type="button" aria-label="Show photo 3"><span></span></button><button class="dot-btn" type="button" aria-label="Show photo 4"><span></span></button><button class="dot-btn" type="button" aria-label="Show photo 5"><span></span></button></div>
+
+      <div class="container hero-b-grid">
+        <div class="hero-text">
+          <p class="eyebrow eyebrow-glass">Swim &amp; triathlon coach</p>
+          <h1 id="hero-title">Let's make you a faster swimmer.</h1>
+          <p class="lead">I'm Greg Harper: NCAA swimming champion and pro triathlete. I coach athletes of all levels one-on-one, or you can start today with one of my swim plans.</p>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-white btn-lg">Work with me <span aria-hidden="true">&#8599;</span></a>
+            <a href="#how" class="btn btn-glass btn-lg">How I work</a>
+          </div>
+        </div>
+
+        <div class="hero-side">
+          <div class="stat-card glass">
+            <p class="stat-label"><span class="dot" aria-hidden="true"></span>Fastest swim · IRONMAN 70.3 World Championship</p>
+            <p class="stat-big">21:48</p>
+            <dl class="stat-rows">
+              <div><dt>Distance</dt><dd>1.9 km / 1.2 mi</dd></div>
+              <div><dt>Pace</dt><dd>1:08 min/100 m</dd></div>
+            </dl>
+          </div>
+          <div class="slider-ui">
+            <button class="slide-arrow" type="button" data-dir="-1" aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+            <div class="bars"><button class="bar-btn is-active" type="button" aria-label="Show photo 1"><span></span></button><button class="bar-btn" type="button" aria-label="Show photo 2"><span></span></button><button class="bar-btn" type="button" aria-label="Show photo 3"><span></span></button><button class="bar-btn" type="button" aria-label="Show photo 4"><span></span></button><button class="bar-btn" type="button" aria-label="Show photo 5"><span></span></button></div>
+            <button class="slide-arrow" type="button" data-dir="1" aria-label="Next photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- What Greg offers (no prices here) -->
+      <nav class="container offers" aria-label="What I offer">
+        <a href="#coaching" class="offer">
+          <span class="offer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 18c2 0 2-1.5 4-1.5S8 18 10 18s2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5M2 13.5c2 0 2-1.5 4-1.5s2 1.5 4 1.5 2-1.5 4-1.5 2 1.5 4 1.5 2-1.5 4-1.5"/><circle cx="16" cy="6" r="2"/></svg></span>
+          <span class="offer-text">Swim coaching<small>For all levels</small></span>
+        </a>
+        <a href="#coaching" class="offer">
+          <span class="offer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="5.5" cy="17" r="3.5"/><circle cx="18.5" cy="17" r="3.5"/><path d="M5.5 17 9 9h6l3.5 8M9 9 7.5 6H5m7.5 11L15 9"/></svg></span>
+          <span class="offer-text">Triathlon coaching<small>Swim, bike &amp; run</small></span>
+        </a>
+        <a href="#coaching" class="offer">
+          <span class="offer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="m16 10 6-3v10l-6-3"/></svg></span>
+          <span class="offer-text">Video analysis<small>+ custom 6-week plan</small></span>
+        </a>
+        <a href="#plans" class="offer">
+          <span class="offer-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg></span>
+          <span class="offer-text">Swim training plans<small>Start today</small></span>
+        </a>
+      </nav>
+    </section>
+
+    <!-- COACHING -->
+    <section id="coaching" class="section" aria-labelledby="coaching-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Personalized coaching</p>
+          <h2 id="coaching-title">Choose how we work together</h2>
+          <p>Every option is built around you: your stroke, your schedule and your race goals.</p>
+        </header>
+
+        <div class="cards cards-3">
+          <article class="card">
+            <h3>Swim Coaching</h3>
+            <p class="price"><span class="amount">$165</span><span class="per">/ month</span></p>
+            <ul class="checks">
+              <li>Weekly written workouts</li>
+              <li>Video analysis with action plan</li>
+              <li>Unlimited communication</li>
+              <li>Can work alongside your current tri coach</li>
+            </ul>
+            <a class="btn btn-primary btn-block" data-stripe="swimCoaching" href="#contact">Start swim coaching</a>
+            <p class="fine">Billed monthly</p>
+          </article>
+
+          <article class="card card-featured">
+            <span class="badge">Most complete</span>
+            <h3>Full Triathlon Programming</h3>
+            <p class="price"><span class="amount">$300</span><span class="per">/ month</span></p>
+            <ul class="checks">
+              <li>Complete swim, bike &amp; run programming</li>
+              <li>Personalized to your races and schedule</li>
+              <li>Unlimited communication</li>
+            </ul>
+            <a class="btn btn-primary btn-block" data-stripe="fullTriathlon" href="#contact">Start full programming</a>
+            <p class="fine">Billed monthly</p>
+          </article>
+
+          <article class="card">
+            <h3>Video Analysis + 6-Week Plan</h3>
+            <p class="price"><span class="amount">$300</span><span class="per">one-time</span></p>
+            <ul class="checks">
+              <li>1-hour video session: we analyze your stroke together</li>
+              <li>Custom 6-week swim plan included, targeting your weaknesses</li>
+              <li>Focused on stroke fundamentals</li>
+            </ul>
+            <a class="btn btn-secondary btn-block" data-stripe="videoAnalysis" href="#contact">Book analysis + plan</a>
+            <p class="fine">One-time payment, 6-week plan included</p>
+          </article>
+        </div>
+
+        <p class="secure-note">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8a2 2 0 0 0-2-2h-1V7a5 5 0 0 0-5-5zm-3 8V7a3 3 0 1 1 6 0v3H9z"/></svg>
+          Secure checkout with Stripe. Card, Apple Pay and Google Pay accepted.
+        </p>
+      </div>
+    </section>
+
+    <!-- HOW I WORK -->
+    <section id="how" class="section section-tint" aria-labelledby="how-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">How I work</p>
+          <h2 id="how-title">Simple, personal and always reachable</h2>
+          <p>Here's what working together looks like, and the apps I use to coach you and stay in touch.</p>
+        </header>
+        <ol class="steps">
+          <li>
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3>We get to know each other</h3>
+            <p>Tell me about your races, swim background and weekly schedule. We set clear goals together.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3>Your plan, every week</h3>
+            <p>Workouts land in your TrainingPeaks calendar, built around your life and your next race.</p>
+          </li>
+          <li>
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3>Feedback that makes you faster</h3>
+            <p>Send me a swim video or a quick message. I reply with clear, actionable feedback.</p>
+          </li>
+        </ol>
+
+        <h3 class="tools-title">The tools I coach with</h3>
+        <ul class="tools">
+          <li class="tool">
+            <span class="tool-logo" style="--brand:#3177FF" aria-hidden="true"><svg viewBox="0 0 53 50"><path fill="currentColor" d="M22.2338 49.725H12.682L29.4257 11.1625H38.9775L22.2338 49.725ZM15.0917 38.5625H5.53983L22.2959 0H31.8478L15.1041 38.5625H15.0917ZM41.971 31.875H32.4192L42.7411 8.1125H52.293L41.971 31.875ZM15.0047 11.1625L9.55185 23.725H0L5.45288 11.1625H15.0047Z"/></svg></span>
+            <div><strong>TrainingPeaks</strong><p>Your workouts, calendar and progress, synced to your watch.</p></div>
+          </li>
+          <li class="tool">
+            <span class="tool-logo" style="--brand:#25D366" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></span>
+            <div><strong>WhatsApp</strong><p>Quick questions, check-ins and swim videos, any day.</p></div>
+          </li>
+          <li class="tool">
+            <span class="tool-logo" style="--brand:#0B5CFF" aria-hidden="true"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M3 7.5A2.5 2.5 0 0 1 5.5 5h8A2.5 2.5 0 0 1 16 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-8A2.5 2.5 0 0 1 3 16.5zm14 2.4 3.4-2.3c.7-.5 1.6 0 1.6.8v7.2c0 .8-.9 1.3-1.6.8L17 14.1z"/></svg></span>
+            <div><strong>Zoom</strong><p>Live video calls for stroke analysis and race planning.</p></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- WORKOUT PLANS -->
+    <section id="plans" class="section" aria-labelledby="plans-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Workout plans</p>
+          <h2 id="plans-title">Not ready for coaching? Start with a plan.</h2>
+          <p>Each plan is a PDF with workouts, drill demonstrations, an intensity guide and a workout theme.</p>
+        </header>
+
+        <div class="plans">
+          <article class="plan">
+            <img class="plan-img" src="assets/img/plan-703.jpg" width="720" height="480" alt="Swimmer doing butterfly in a pool" loading="lazy" decoding="async">
+            <div class="plan-top">
+              <span class="tag">Intermediate / Advanced</span>
+              <h3>3 Week 70.3 Swim Block</h3>
+              <p>A focused three-week block to sharpen your swim before a half-distance race.</p>
+            </div>
+            <div class="plan-bottom">
+              <span class="plan-price">$50</span>
+              <a class="btn btn-secondary btn-sm" data-stripe="block703" href="#contact">Buy plan<span class="sr-only">: 3 Week 70.3 Swim Block</span></a>
+            </div>
+          </article>
+
+          <article class="plan">
+            <img class="plan-img" src="assets/img/plan-ironman.jpg" width="720" height="480" alt="Triathletes swimming past a race buoy" loading="lazy" decoding="async">
+            <div class="plan-top">
+              <span class="tag">Intermediate / Advanced</span>
+              <h3>5 Big Ironman Prep Swims</h3>
+              <p>Five key sessions to build the endurance and confidence for a full-distance swim.</p>
+            </div>
+            <div class="plan-bottom">
+              <span class="plan-price">$28</span>
+              <a class="btn btn-secondary btn-sm" data-stripe="ironmanPrep" href="#contact">Buy plan<span class="sr-only">: 5 Big Ironman Prep Swims</span></a>
+            </div>
+          </article>
+
+          <article class="plan">
+            <img class="plan-img" src="assets/img/plan-aerobic.jpg" width="720" height="480" alt="Freestyle swimmer racing in a pool lane" loading="lazy" decoding="async">
+            <div class="plan-top">
+              <span class="tag">10 workouts</span>
+              <h3>Aerobic with Speed Development</h3>
+              <p>Build your aerobic engine while keeping a sharp top-end speed.</p>
+            </div>
+            <div class="plan-bottom">
+              <span class="plan-price">$40</span>
+              <a class="btn btn-secondary btn-sm" data-stripe="aerobicSpeed" href="#contact">Buy plan<span class="sr-only">: Aerobic with Speed Development</span></a>
+            </div>
+          </article>
+
+          <article class="plan">
+            <img class="plan-img" src="assets/img/plan-technique.jpg" width="720" height="480" alt="Swimmer working on stroke technique" loading="lazy" decoding="async">
+            <div class="plan-top">
+              <span class="tag">All levels</span>
+              <h3>Technique Improvement</h3>
+              <p>Five focused sessions to clean up your stroke. The best place to start.</p>
+            </div>
+            <div class="plan-bottom">
+              <span class="plan-price">$28</span>
+              <a class="btn btn-secondary btn-sm" data-stripe="technique" href="#contact">Buy plan<span class="sr-only">: Technique Improvement</span></a>
+            </div>
+          </article>
+
+          <article class="plan">
+            <img class="plan-img" src="assets/img/plan-threshold.jpg" width="720" height="480" alt="Underwater view of a freestyle stroke" loading="lazy" decoding="async">
+            <div class="plan-top">
+              <span class="tag">10 workouts</span>
+              <h3>Threshold Development</h3>
+              <p>Raise the pace you can hold for race distance, one set at a time.</p>
+            </div>
+            <div class="plan-bottom">
+              <span class="plan-price">$40</span>
+              <a class="btn btn-secondary btn-sm" data-stripe="threshold" href="#contact">Buy plan<span class="sr-only">: Threshold Development</span></a>
+            </div>
+          </article>
+
+          <aside class="plan plan-help">
+            <h3>Not sure which plan fits?</h3>
+            <p>Send a quick message and I'll point you in the right direction.</p>
+            <a class="btn btn-outline btn-sm" href="#contact">Ask Greg</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-tint" aria-labelledby="about-title">
+      <div class="container about">
+        <div class="about-photo">
+          <img src="assets/img/greg-coaching.jpg" width="636" height="960" alt="Greg Harper coaching a young swimmer at the start of a race" loading="lazy" decoding="async">
+        </div>
+        <div class="about-text">
+          <p class="eyebrow">About Greg</p>
+          <h2 id="about-title">A coach who still races at the front</h2>
+          <p>I'm a former Cal swimmer, NCAA champion and professional triathlete. I led out the swim at the 2024 IRONMAN 70.3 World Championships, and I've coached swimmers my whole life.</p>
+          <p>I coach with a relaxed, collaborative style built on a growth mindset. I want my athletes to become true students of the sport: curious, engaged and always learning.</p>
+          <p>Success isn't only about results. It's about enjoying the process, being disciplined in the small things, and building habits, confidence and respect for the sport, with a few laughs along the way.</p>
+          <a href="#contact" class="btn btn-primary">Work with me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Swim. Bike. Run.</p>
+          <h2 id="gallery-title">Race day</h2>
+        </header>
+        <div class="gallery">
+          <figure>
+            <img src="assets/img/race-swim-start.jpg" width="675" height="900" alt="Greg Harper in his swim cap and goggles at the start of a race" loading="lazy" decoding="async">
+            <figcaption>Race morning</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/race-run.jpg" width="675" height="900" alt="Greg Harper running during the run leg of a 70.3" loading="lazy" decoding="async">
+            <figcaption>Run leg</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/race-finish.jpg" width="676" height="900" alt="Greg Harper running down the finish chute" loading="lazy" decoding="async">
+            <figcaption>Finish chute</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/img/race-run-2.jpg" width="675" height="900" alt="Greg Harper running past the crowd on the run course" loading="lazy" decoding="async">
+            <figcaption>Pushing the pace</figcaption>
+          </figure>
+        </div>
+        <p class="gallery-link"><a href="https://www.instagram.com/gharpzorz/" rel="noopener" target="_blank">Follow @gharpzorz on Instagram &rarr;</a></p>
+      </div>
+    </section>
+
+    <!-- SWIM TIPS -->
+    <section id="tips" class="section section-tint" aria-labelledby="tips-title">
+      <div class="container tips">
+        <div class="tips-intro">
+          <p class="eyebrow">Free swim tips</p>
+          <h2 id="tips-title">Swim tips with Coach Greg</h2>
+          <p>Short, no-nonsense videos where I break down drills and common swim questions. Made together with the Stamina triathlon app.</p>
+          <a class="btn btn-primary" href="https://www.instagram.com/joinstamina/" rel="noopener" target="_blank">Watch the series on Instagram</a>
+        </div>
+        <ul class="tip-list">
+          <li>
+            <a class="tip" href="https://www.instagram.com/p/DTA40JJk6Lb/" rel="noopener" target="_blank">
+              <span class="tip-thumb"><img src="assets/img/race-swim-start.jpg" width="675" height="900" alt="" loading="lazy" decoding="async"><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span></span>
+              <span class="tip-text"><strong>Board kicks: are they really worth it?</strong><small>Watch on Instagram</small></span>
+            </a>
+          </li>
+          <li>
+            <a class="tip" href="https://www.instagram.com/joinstamina/reel/DffduhrxySl/" rel="noopener" target="_blank">
+              <span class="tip-thumb"><img src="assets/img/plan-technique.jpg" width="720" height="480" alt="" loading="lazy" decoding="async"><span class="play" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5.5v13l10.5-6.5z"/></svg></span></span>
+              <span class="tip-text"><strong>Learn each swim drill, done right</strong><small>Watch on Instagram</small></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <header class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Common questions</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>Can you work alongside my current triathlon coach?</summary>
+            <p>Yes. Swim Coaching is designed to work collaboratively with your existing triathlon coach, so your swim fits into your overall training load.</p>
+          </details>
+          <details>
+            <summary>How do I receive a workout plan after buying it?</summary>
+            <p>After secure checkout with Stripe you receive your plan as a PDF by email, including workouts, drill demonstrations, an intensity guide and the workout theme.</p>
+          </details>
+          <details>
+            <summary>Which plan should I start with?</summary>
+            <p>Newer to structured swimming? Start with Technique Improvement. Racing a 70.3 soon? Pick the 3 Week 70.3 Swim Block. Still unsure? Send me a message.</p>
+          </details>
+          <details>
+            <summary>Do the plans work in yards and meters?</summary>
+            <p>Yes. Workouts can be swum in a yard or meter pool. Just keep the same intervals and effort.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-blue" aria-labelledby="contact-title">
+      <div class="blur-bg blur-bg--alt" aria-hidden="true"><span class="blob"></span></div>
+      <div class="container contact">
+        <div class="contact-intro">
+          <p class="eyebrow">Get in touch</p>
+          <h2 id="contact-title">Let's talk about your goals</h2>
+          <p>Tell me a little about yourself. I read every message personally and usually reply within 1–2 days.</p>
+          <p class="signoff"><img src="assets/img/greg-avatar.jpg" width="150" height="150" alt="" class="avatar"> <span>Greg Harper<br><small>Swim &amp; triathlon coach</small></span></p>
+        </div>
+        <form class="contact-form" name="contact" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden-field"><label>Leave this empty <input name="company" tabindex="-1" autocomplete="off"></label></p>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <p class="error" id="email-error" role="alert" hidden>Please enter a valid email address.</p>
+          </div>
+          <div class="field">
+            <label for="interest">I'm interested in</label>
+            <select id="interest" name="interest">
+              <option>Swim Coaching</option>
+              <option>Full Triathlon Programming</option>
+              <option>Video Analysis + 6-Week Plan</option>
+              <option>A workout plan</option>
+              <option>Just a question</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Your goals or question</label>
+            <textarea id="message" name="message" rows="4" placeholder="e.g. Racing a 70.3 in June, swimming 3x per week, want to break 30 min."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block btn-lg">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year">2026</span> Greg Harper Coaching · Race photos: <a href="https://www.instagram.com/k.lagosmedia/" rel="noopener" target="_blank">@k.lagosmedia</a></p>
+      <ul>
+        <li><a href="https://www.instagram.com/gharpzorz/" rel="noopener" target="_blank">Instagram</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#top">Back to top</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="main.js?v=7" defer></script>
+</body>
+</html>
